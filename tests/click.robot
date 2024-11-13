@@ -16,8 +16,7 @@ Deve realizar um click simples
 
     Close session
 
-Deve realizar um click longo
-    [Tags]    long
+Deve realizar um click longo   
 
     Start session
     Get started
