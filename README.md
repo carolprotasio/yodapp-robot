@@ -1,8 +1,9 @@
 # Projeto Yodapp-Robot
 
-Este repositório contém a automação de testes do aplicativo **Yodapp**, desenvolvido para testar diversas funcionalidades em um ambiente de mobile testing. O projeto foi realizado para praticar habilidades em automação mobile usando um conjunto de ferramentas e cenários abrangentes.
+Este repositório contém a automação de testes do aplicativo **Yodapp**, em um ambiente mobile, com foco em práticas avançadas de automação para dispositivos Android. Utilizando Appium e Robot Framework, o projeto cobre cenários comuns de usabilidade e validações essenciais para garantir uma experiência de usuário confiável. Através dos scripts de teste, foi explorado interações como cliques, checkboxes, preenchimento de campos, respostas a diálogos, autenticação e navegação com precisão e eficácia, otimizando a verificação dos principais componentes da interface.
 
-**Objetivo:** Validar a implementação de funcionalidades críticas de um aplicativo móvel, garantindo que interações como cliques, checkboxes, login, e pesquisa funcionem conforme esperado.
+Os testes com Appium permitem a simulação precisa de ações do usuário, enquanto o Robot Framework proporciona estrutura e legibilidade aos casos de teste, viabilizando uma manutenção eficiente e a integração contínua com ambientes de desenvolvimento. 
+
 
 <table>
   <tr>
