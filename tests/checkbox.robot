@@ -17,6 +17,6 @@ Deve marcar as techs que usam Appium
         Click Element     xpath=//android.widget.CheckBox[contains(@text,"${tech}")]
         
     END     
-          
+              
     Close session
 

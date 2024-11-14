@@ -26,4 +26,26 @@ Deve poder remover o Darth Vader
     Sleep     3     
          
     Close session
+Deve poder remover Princesa Leia
+    [Tags]    px
+    Start session
+    Get started
+    Navigate to    Star Wars
+    Go to item     Lista    Princesa Leia  
+
+    ${position}    Get Element Location    xpath=//android.widget.TextView[@text="@Senadora Leia"]/../../..//*[contains(@resource-id, "indicator")]
+    
+    ${start_x}    Set Variable    ${position}[x]
+    ${start_y}    Set Variable    ${position}[y]
+    ${offset_x}   Evaluate    ${position}[x] - 600
+    ${offset_y}   Set Variable    ${position}[y]
+
+    Swipe     ${start_x}    ${start_y}    ${offset_x}    ${offset_y}     1000
+
+    Click Element                       id=com.qaxperience.yodapp:id/btnRemove    
+    Wait Until Page Does Not Contain    Princesa Leia    
+
+    Sleep     3     
+         
+    Close session
 

@@ -77,5 +77,5 @@ Select level
     [Arguments]    ${level}
     
     Click Element                    id=com.qaxperience.yodapp:id/spinnerJob
-    Wait Until Element Is Visible    class=android.widget.TextView
+    Wait Until Element Is Visible    class=android.widget.TextView    10
     Click Text                       ${level}
